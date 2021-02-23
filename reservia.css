@@ -1,0 +1,479 @@
+
+/*police,couleur texte, style texte */
+@font-face {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Regular'), url('webfont/Raleway-Regular.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Raleway Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Raleway Bold'), url('webfont/Raleway-Bold.woff') format('woff');
+        }
+ 
+*
+{
+    font-family: "Raleway Regular";
+}    
+#menutete,#inscription
+{
+color: blue;
+margin-left: auto;
+
+}
+body
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: 0;
+    padding-left:1rem ;
+    padding-right: 1rem;
+
+
+}
+#Recherche, #Filtres, #Infos
+{
+    margin-bottom: 1rem;
+    padding-left:1rem ;
+   padding-right:1rem ;
+}
+h1,h2,h3
+{
+ font-size: 14px;
+ font-family: "Raleway Bold";
+ margin: 0;
+ padding-bottom: 0.25rem;
+ 
+}
+h4
+{
+    font-size: 12px;
+    font-family: "Raleway Bold";
+    margin: 0;
+    padding-bottom: 0.25rem;
+}
+ h3
+{
+ font-size: 13px;
+ 
+}
+p,body
+{
+    font-size: 11px;
+    margin: 0;
+    padding-bottom: 0.25rem;
+ 
+}
+ul
+{
+    font-size: 10px;
+    
+}
+#inscription li a
+{
+ font-family: 'Raleway bold';
+}
+h5
+{
+    font-size: 12px ;
+    font-family: 'Raleway bold';
+}
+
+/* background colors */
+input
+{
+    border-color: #f2f2f2;
+    border-style: solid;
+}
+#Rechercher
+{
+    border: 4px #0065FC solid;
+    background-color:#0065FC;
+    border-radius:  0rem 0.5rem 0.5rem 0;
+    margin-left: -0.25rem;
+    
+    text-decoration: none;
+    color: white;
+}
+.location
+{
+    border: 6px #f2f2f2 solid;
+    border-radius: 1rem 0 0 1rem;
+    margin-right: -0.25rem;
+    
+}
+
+#Hebergements
+{
+    width: 60%;
+    background-color: #f2f2f2;
+    border-radius: 1rem ;
+    margin-right: auto;
+    padding: 1rem;
+   
+   
+    
+    
+   
+}
+#Hebergements img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 8rem;
+}
+#Populaires
+{
+    
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 1rem ;
+    margin-left: auto;
+    padding: 0.5rem;
+   
+   
+}
+
+#Filtres p:hover
+{
+    color: blue;
+}
+
+a:hover
+{
+    border-top: 1px solid blue;
+}
+a
+{
+    text-decoration: none;
+
+}
+
+/* Header */
+#logo img
+{
+    width: 20%;
+}
+  
+nav a 
+{
+    padding-top: 1rem;
+}
+
+nav, ul
+{
+    
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.picture
+{
+  object-fit: cover;
+
+}
+#inscription a, #menutete ul.deflex a:hover
+{
+    color: #0065fc;
+}
+#menutete ul.deflex a
+{
+    color: black;
+
+}
+/* flex box*/
+
+.deflex
+{
+    display: flex;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+footer
+{
+    justify-content: space-around;
+}
+.justifyc
+{
+    justify-content: space-around;
+}
+.justifyc2
+{
+    justify-content: space-between;
+}
+li
+{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+div.colomn1
+{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    
+}
+.colomn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    
+    
+}
+.PL1 
+{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.mgn
+{
+    margin-top: 2rem;
+    
+    
+}
+h5
+{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.Poppad
+{
+    padding: 1.5rem;
+}
+#ACTIVITES
+{
+    display: flex;
+    margin-left: -0.3rem;
+   padding-left:1rem ;
+   padding-right:1rem ;
+   
+}
+.round
+{
+    border-radius: 1rem 0 0 1rem;
+  
+
+}
+.round2
+{
+    border-radius: 1rem 1rem 0 0 ;
+}
+.bleu
+{
+    color:#0065FC ;
+}
+.silver
+{
+    color: silver;
+}
+.circle
+{
+    border: 5px #deebff solid;
+    border-radius: 20px;
+    background-color: #deebff;
+    padding: 0.1rem;
+    
+    
+}
+.radius_filtre
+{
+    border: silver solid 1px;
+    border-radius: 20px;
+    border-left: lightskyblue;
+    
+}
+.radius_filtre.footitle
+{
+    padding: 0%;
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 1rem ;
+    box-shadow: 0 4px 8px grey;
+    padding: 2px;
+   margin-bottom: 3rem; 
+   width: 30%;
+   height: 12rem;
+}
+.card2, .card2-5, .card2-6
+{
+    background-color: white;
+    border-radius: 1rem ;
+    box-shadow: 0 4px 8px grey;
+   
+    
+    
+   
+}
+.card2-5
+{
+    height: 14rem;
+}
+.card2-6
+{
+    height: 8rem;
+}
+.card2 img, .card2-5 img, .card2-6 img
+{
+    width: 100%;
+}
+.card3
+{
+    background-color: white;
+    border-radius: 1rem ;
+    box-shadow: 0 4px 8px grey;
+    padding: 2px;
+   margin-top: 2rem; 
+   width: 100%;
+   height: 8rem;
+}
+.card3 img
+{
+    width: 40%;
+    height: 100%;
+}
+#Vieuxport
+{
+    width: 24%;
+    height: 24rem;
+}
+#Vieuxport img
+{
+   height: 21rem;
+
+   
+}
+
+#ParcNational
+{
+    width: 24%;
+    height: 24rem;
+}
+#ParcNational img
+{
+    height: 21rem;
+}
+.colomn .card2
+{
+    height: 11rem;
+}
+#NDLG img
+
+{
+    height: 8rem;
+}
+#longchamps img
+{
+    height: 8rem;
+}
+#Pomegues img
+{
+     height: 11rem;
+}
+#Frioul img
+{
+    height: 5rem;
+}
+.title1
+{
+    padding-bottom: 1rem;
+}
+.title2
+{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/* footer */
+
+#Footer
+{
+    
+    background-color: #f2f2f2;
+    margin: 0;
+    margin-top: 3rem;
+   
+}
+
+.footitle
+{
+    font-weight: 900;
+    font-family: 'Raleway bold';
+    margin-left: 1.5rem;
+
+}
+.footitle2
+{
+    font-weight: 900;
+    font-family: 'Raleway bold';
+    margin-left: 0.5rem;
+}
+.px
+{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px)
+{
+    .deflex
+    {
+        flex-direction:column-reverse;
+    }
+    #Populaires
+    {
+        margin-left: 0;
+        margin-top: 1rem;
+        
+    }
+    #Hebergements
+    {
+        background-color: white;
+    }
+    #ACTIVITES
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    ul
+    {
+        margin-left: 0;
+        justify-content: space-between;
+    }
+    .radius_filtre.footitle
+    {
+        width: 150px;
+        
+    }
+    #Vieuxport.card2
+    {
+        height: 10rem;
+    }
+    #ParcNational.card2
+    {
+        height: 10rem;
+    }
+    #ACTIVITES.justifyc
+    {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+}
