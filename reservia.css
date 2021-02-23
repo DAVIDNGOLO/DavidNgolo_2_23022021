@@ -476,4 +476,14 @@ h5
         flex-direction: column;
     }
     
+    
+    #menutete
+    {
+        margin-left: 0;
+    }
+    nav.deflex.justifyc
+    {
+        margin-left: 0;
+    }
+    
 }
