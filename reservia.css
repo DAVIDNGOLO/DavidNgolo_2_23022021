@@ -26,6 +26,7 @@ margin-left: auto;
 }
 body
 {
+    width: 100%;
     margin: 0;
     padding: 0;
    
@@ -33,7 +34,7 @@ body
 
 #bloc_page
 {
-    width: 100%;
+    
     margin: 0;
     padding-left:1rem ;
     padding-right: 1rem;
@@ -261,7 +262,7 @@ h5
 #ACTIVITES
 {
     display: flex;
-    margin-left: -0.3rem;
+    
    padding-left:1rem ;
    padding-right:1rem ;
    
@@ -438,20 +439,29 @@ h5
 
 @media screen and (max-width: 1024px)
 {
-    .deflex
+    #HP
     {
         flex-direction:column-reverse;
     }
-    #Populaires
+
+    #Populaires, #Hebergements .card
     {
         margin-left: 0;
         margin-top: 1rem;
+        width: 100%;
         
     }
     #Hebergements
     {
         background-color: white;
+        width: 100%;
+        
     }
+    #Hebergements .deflex
+    {
+        flex-direction: column;
+    }
+   
     #ACTIVITES
     {
         flex-direction: column;
@@ -475,13 +485,9 @@ h5
     {
         height: 10rem;
     }
-    #ACTIVITES.justifyc
-    {
-        justify-content: space-around;
-        flex-direction: column;
-    }
+   
     
-    f
+    
     #menutete
     {
         margin-left: 0;
@@ -490,5 +496,27 @@ h5
     {
         margin-left: 0;
     }
-    
+    #ACTIVITES img
+    {
+        height: 10rem;
+    }
+    #ACTIVITES .card2 , #ACTIVITES .card2-5 , #ACTIVITES .card2-6
+    {
+        height: auto;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #ACTIVITES .colomn
+    {
+        width: 100%;
+    }
+    #ACTIVITES H5
+    {
+        padding-bottom: 0;
+    }
+    footer.deflex
+    {
+        flex-direction: column;
+    }
 }
