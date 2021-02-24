@@ -138,6 +138,7 @@ input
     background-color: #F2F2F2;
     border-radius: 1rem ;
     margin-left: auto;
+    margin-right: auto;
     padding: 0.5rem;
    
    
@@ -189,6 +190,10 @@ nav, ul
 {
     color: black;
 
+}
+div#menutete
+{
+    margin-right: 1rem;
 }
 /* flex box*/
 
@@ -476,7 +481,7 @@ h5
         flex-direction: column;
     }
     
-    
+    f
     #menutete
     {
         margin-left: 0;
