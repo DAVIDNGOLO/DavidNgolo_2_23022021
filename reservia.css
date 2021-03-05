@@ -61,6 +61,7 @@ h4
     font-family: "Raleway Bold";
     margin: 0;
     padding-bottom: 0.25rem;
+    margin-inline-end: auto;
 }
  h3
 {
@@ -197,12 +198,7 @@ nav, ul
 {
     text-align: center;
 }
-nav li 
-{
-    border-bottom: solid rgb(242, 242, 242);
-    width: 50%;
-    border
-}
+
 div#menutete
 {
     margin-right: 1rem;
@@ -473,6 +469,12 @@ h5
     border-top: none;
 }
 
+nav li 
+{
+    border-bottom: solid rgb(242, 242, 242);
+    width: 50%;
+    border
+}
 
     #Populaires, #Hebergements .card
     {
