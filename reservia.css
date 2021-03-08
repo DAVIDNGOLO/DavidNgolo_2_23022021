@@ -435,6 +435,11 @@ h5
     font-weight: 900;
     font-family: 'Raleway bold';
     margin-left: 0.5rem;
+    
+}
+.margbot
+{
+    margin-bottom: 1rem;
 }
 .px
 {
