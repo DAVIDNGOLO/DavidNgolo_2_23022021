@@ -151,10 +151,7 @@ input
     color: blue;
 }
 
-a:hover
-{
-    border-top: 1px solid blue;
-}
+
 a
 {
     text-decoration: none;
@@ -187,6 +184,13 @@ nav, ul
 #inscription a, #menutete ul.deflex a:hover
 {
     color: #0065fc;
+    text-decoration: underline ;
+    color: blue;
+   
+}
+#inscription a, #menutete ul.deflex a
+{
+    text-decoration: none;
 }
 
 #navigation ul.deflex a
@@ -468,10 +472,10 @@ h5
     {
         margin-bottom: 1rem;
     }
-    a:hover
+    #inscription a, #menutete ul.deflex a:hover
 {
-    border-bottom: 1px solid blue;
-    border-top: none;
+    border-top: none
+    
 }
 
 nav li 
