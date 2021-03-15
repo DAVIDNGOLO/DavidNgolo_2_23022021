@@ -496,6 +496,20 @@ nav li
    {
        width: calc(100% - 1rem);
    }
+   #Populaires h4
+   
+   {
+       margin-left: -10rem;
+   }
+   #Populaires p
+   {
+       margin-left: -10rem;
+   }
+   #Populaires i
+   {
+       margin-top: 2rem;
+   }
+   
     #Hebergements
     {
         background-color: white;
