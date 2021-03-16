@@ -184,8 +184,9 @@ nav, ul
 #inscription a, #menutete ul.deflex a:hover
 {
     color: #0065fc;
-    text-decoration: underline ;
+    text-decoration: overline ;
     color: blue;
+    
    
 }
 #inscription a, #menutete ul.deflex a
@@ -277,6 +278,14 @@ h5
    padding-left:1rem ;
    padding-right:1rem ;
    
+}
+.star
+{
+    margin-top: 2rem;
+}
+.popmarg
+{
+    margin-left: -15rem;
 }
 .round
 {
@@ -474,7 +483,12 @@ h5
     }
     #inscription a, #menutete ul.deflex a:hover
 {
-    border-top: none
+    
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    
+
+    
     
 }
 
