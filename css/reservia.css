@@ -516,6 +516,7 @@ h5
     width: 40%;
     height: 100%;
 }
+
 #Vieuxport
 {
     width: 24%;
@@ -635,18 +636,25 @@ h5
     
     
 }
-.popmarg
+.popmarg 
 {
-    margin-left: 1rem;
+    margin-right: 2rem;
 }
-
+.mediaq
+{
+    margin-left: -10rem;
+}
 nav li 
 {
     border-bottom: solid rgb(242, 242, 242);
     width: 50%;
     border
 }
-
+div.colomn1.popmarg
+{
+    margin-left: 0;
+    margin-right: 0;
+}
     #Populaires, #Hebergements .card
     {
         margin-left: 0;
@@ -684,7 +692,6 @@ nav li
         flex-direction: column;
     }
     
-    
    
     #ACTIVITES
     {
@@ -712,7 +719,7 @@ nav li
    
     .card3
     {
-        width: 70%;
+        width: 100%;
         
     }
     .card3 img
