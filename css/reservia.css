@@ -154,7 +154,7 @@
     }
 * #bloc_page
 {
-    font-family: 'Raleway Light';
+    font-family: 'Raleway light';
 }    
 #menutete,#inscription
 {
@@ -188,15 +188,19 @@ body
 h1,h2,h3
 {
  font-size: 14px;
- font-family: "Raleway Bold";
+ font-family: "Raleway SemiBold";
  margin: 0;
  padding-bottom: 0.25rem;
  
 }
+.footsmall
+{
+    font-family: "Raleway Light";
+}
 h4
 {
     font-size: 12px;
-    font-family: "Raleway Bold";
+    font-family: "Raleway SemiBold";
     margin: 0;
     padding-bottom: 0.25rem;
     margin-inline-end: auto;
@@ -220,12 +224,12 @@ ul
 }
 #inscription li a
 {
- font-family: 'Raleway bold';
+ font-family: 'Raleway SemiBold';
 }
 h5
 {
     font-size: 12px ;
-    font-family: 'Raleway bold';
+    font-family: 'Raleway SemiBold';
 }
 
 /* background colors */
@@ -585,7 +589,7 @@ h5
 .footitle2
 {
     font-weight: 900;
-    font-family: 'Raleway bold';
+    font-family: 'Raleway Semibold';
     margin-left: 0.5rem;
     
 }
@@ -597,6 +601,7 @@ h5
 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    font-family: 'Raleway Light';
 }
 
 /* media queries */
@@ -705,6 +710,16 @@ nav li
         height: 10rem;
     }
    
+    .card3
+    {
+        width: 70%;
+        
+    }
+    .card3 img
+    {
+        width: 45%;
+        
+    }
     
     
     #menutete
