@@ -327,6 +327,7 @@ nav, ul
 {
     color: #0065fc;
     text-decoration: overline ;
+    
     color: blue;
     
    
@@ -644,10 +645,10 @@ h5
 {
     margin-left: -10rem;
 }
-nav li 
+ul#navigation.deflex
 {
     border-bottom: solid rgb(242, 242, 242);
-    width: 50%;
+    width: 100%;
     border
 }
 div.colomn1.popmarg
