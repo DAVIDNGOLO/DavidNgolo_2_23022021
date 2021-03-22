@@ -581,12 +581,13 @@ h5
     
     #menutete li 
     {
+        
         padding: 20px;
         border-top: 1px solid transparent; 
     }
-    .responsefiltre
+    .hebergresp
     {
-       
+        border-bottom: 1px solid blue;
         
     }
 .popmarg 
@@ -687,10 +688,7 @@ div.colomn1.popmarg
     {
         flex-direction: column;
     }
-    .responsef
-    {
-        display: flex;
-    }
+    
     
     #menutete
     {
