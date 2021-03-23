@@ -132,6 +132,7 @@ h4
     margin: 0;
     padding-bottom: 0.25rem;
     margin-inline-end: auto;
+    color: black;
 }
  h3
 {
@@ -143,6 +144,7 @@ p,body
     font-size: 11px;
     margin: 0;
     padding-bottom: 0.25rem;
+    color: black;
  
 }
 ul
@@ -158,6 +160,7 @@ h5
 {
     font-size: 12px ;
     font-family: 'Raleway SemiBold';
+    color: black;
 }
 /**********************/
 /* background colors */
@@ -710,6 +713,10 @@ div.colomn1.popmarg
     #ACTIVITES img
     {
         height: 10rem;
+    }
+   
+    {
+        color: black;
     }
     #ACTIVITES .card2 , #ACTIVITES .card2-5 , #ACTIVITES .card2-6
     {
