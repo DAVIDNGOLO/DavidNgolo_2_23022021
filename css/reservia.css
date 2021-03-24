@@ -131,12 +131,13 @@ h4
     font-family: "Raleway SemiBold";
     margin: 0;
     padding-bottom: 0.25rem;
-    margin-inline-end: auto;
+    
     color: black;
 }
  h3
 {
  font-size: 13px;
+ margin-top: 0.3rem;
  
 }
 p,body
@@ -371,12 +372,9 @@ h5
 }
 .star
 {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
-.popmarg
-{
-    margin-left: -15rem;
-}
+
 .round
 {
     border-radius: 1rem 0 0 1rem;
@@ -414,6 +412,11 @@ h5
 .radius_filtre.footitle
 {
     padding: 0%;
+}
+img.picture.round
+{
+    height: 130px;
+    width: 180px;
 }
 
 .card
@@ -593,25 +596,15 @@ h5
         border-bottom: 1px solid blue;
         
     }
-.popmarg 
-{
-    margin-right: 2rem;
-}
-.mediaq
-{
-    margin-left: -10rem;
-}
-ul#navigation.deflex
-{
+    
+    
+    ul#navigation.deflex
+    {
     border-bottom: solid rgb(242, 242, 242);
     width: 100%;
-    border
-}
-div.colomn1.popmarg
-{
-    margin-left: 0;
-    margin-right: 0;
-}
+    
+    }
+   
     #Populaires, #Hebergements .card
     {
         margin-left: 0;
@@ -623,19 +616,8 @@ div.colomn1.popmarg
    {
        width: calc(100% - 1rem);
    }
-   #Populaires h4
    
-   {
-       margin-left: -10rem;
-   }
-   #Populaires p
-   {
-       margin-left: -10rem;
-   }
-   #Populaires i
-   {
-       margin-top: 2rem;
-   }
+   
    
     #Hebergements
     {
@@ -715,9 +697,7 @@ div.colomn1.popmarg
         height: 10rem;
     }
    
-    {
-        color: black;
-    }
+   
     #ACTIVITES .card2 , #ACTIVITES .card2-5 , #ACTIVITES .card2-6
     {
         height: auto;
