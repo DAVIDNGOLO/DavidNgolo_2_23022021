@@ -224,7 +224,7 @@ input
 
 #Filtres p:hover
 {
-    background-color: grey;
+    background-color: #F2F2F2;
 }
 
 
@@ -598,7 +598,7 @@ img.picture.round
     .hebergresp
     {
         border-bottom: 1px solid blue;
-        
+        margin-bottom:-2px ;
     }
     
     
