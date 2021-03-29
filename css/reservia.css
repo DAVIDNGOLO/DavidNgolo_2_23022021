@@ -677,6 +677,17 @@ img.picture.round
     {
         flex-direction: column;
     }
+    img.picture.round
+    {
+    height: 130px;
+    width: 150px;
+    }
+    
+
+
+    
+
+
     
     
     #menutete
@@ -721,4 +732,8 @@ img.picture.round
     {
         flex-direction: column;
     }
-}
+    div.colomn1.popmarg 
+    {
+        padding: 0;
+        margin-left: 10rem;
+    }
