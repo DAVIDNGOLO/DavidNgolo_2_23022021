@@ -736,11 +736,7 @@ img.picture.round
     }
     
 
-    input 
-    {
-        width: 80%;
     
-    }
     
 
 
@@ -767,7 +763,11 @@ img.picture.round
     {
         height: 10rem;
     }
-   
+    input 
+    {
+        width: 80%;
+    
+    }
    
     #ACTIVITES .card2 , #ACTIVITES .card2-5 , #ACTIVITES .card2-6
     {
