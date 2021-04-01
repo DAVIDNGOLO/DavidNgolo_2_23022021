@@ -121,6 +121,14 @@ h1,h2,h3
  padding-bottom: 0.25rem;
  
 }
+.black
+{
+    color: black;
+}
+.black:hover
+{
+    color: rgb(0, 81, 255);
+}
 .footsmall
 {
     font-family: "Raleway Light";
@@ -170,11 +178,20 @@ input
 {
     border-color: #f2f2f2;
     border-style: solid;
+    width: 80%;
+    
+
+}
+#Rechercher::after
+{
+    
+    content: 'rechercher';
 }
 #Rechercher
 {
     border: 4px #0066FC solid;
     background-color:#0065FC;
+   
     
     border-radius:  0rem 0.5rem 0.5rem 0;
     margin-left: -0.25rem;
@@ -557,13 +574,22 @@ img.picture.round
 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    font-family: 'Raleway Light';
+    font-family: 'Raleway Semibold';
 }
 
 /* media queries */
+@media screen and (min-width: 1025px)
+{
+    #Rechercher .fa-search
+    {
+       display: none;
+    }
+}
 
 @media screen and (max-width: 1024px)
 {
+
+    
     #HP
     {
         flex-direction:column-reverse;
@@ -588,18 +614,31 @@ img.picture.round
         
        
     }
+    .black1
+    {
+        margin-right: 3rem;
+    }
     
     #menutete li 
     {
-        
+        width: 50%;
         padding: 20px;
         border-top: 1px solid transparent; 
     }
     .hebergresp
     {
+        
         border-bottom: 1px solid blue;
         margin-bottom:-2px ;
     }
+    #Rechercher
+{
+    border: 4px #0066FC solid;
+    background-color:#0065FC;
+    
+    border-radius:  5px 10px 0 5px;;
+    
+}
     
     
     ul#navigation.deflex
@@ -621,7 +660,14 @@ img.picture.round
        width: calc(100% - 1rem);
    }
    
-   
+   .hebergresp
+   {
+       font-size: 13px;
+   }
+   .black1
+   {
+    font-size: 13px;
+   }
    
     #Hebergements
     {
@@ -634,6 +680,12 @@ img.picture.round
     {
         flex-direction: column;
     }
+    #Rechercher::after
+{
+    content: '';
+}
+
+
     
     #ACTIVITES
     {
