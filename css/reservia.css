@@ -178,7 +178,7 @@ input
 {
     border-color: #f2f2f2;
     border-style: solid;
-    width: 80%;
+    
     
 
 }
@@ -736,7 +736,10 @@ img.picture.round
     }
     
 
-
+    input 
+    {
+        width: 80%;
+    }
     
 
 
